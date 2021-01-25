@@ -31,10 +31,15 @@ ul {
 a {
   scroll-behavior: smooth;
   text-decoration: none;
-  font-family: "Inconsolata", RoadTest, sans-serif;
+  font-family: "Inconsolata", sans-serif;
   color: black;
   margin: 20px;
   font-size: 20px;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #a9a6a6;
 }
 
 section {
